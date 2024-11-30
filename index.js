@@ -28,6 +28,29 @@ const requestLogger = morgan((tokens, req, res) => {
 
 app.use(requestLogger)
 
+let phonebook = [
+  {
+    'id': '1',
+    'name': 'Arto Hellas',
+    'number': '345-249-8990'
+  },
+  {
+    'id': '2',
+    'name': 'Ada Lovelace',
+    'number': '654-876-9087'
+  },
+  {
+    'id': '3',
+    'name': 'Dan Abramov',
+    'number': '543-473-4766'
+  },
+  {
+    'id': '4',
+    'name': 'Mary Poppendieck',
+    'number': '984-647-3839'
+  }
+]
+
 app.get('/api/phonebook', (request, response) => {
   Person.find({}).then(phonebook => {
     response.json(phonebook)
