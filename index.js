@@ -32,22 +32,22 @@ let phonebook = [
     { 
       "id": "1",
       "name": "Arto Hellas", 
-      "number": "040-123456"
+      "number": "345-249-8990"
     },
     { 
       "id": "2",
       "name": "Ada Lovelace", 
-      "number": "39-44-5323523"
+      "number": "654-876-9087"
     },
     { 
       "id": "3",
       "name": "Dan Abramov", 
-      "number": "12-43-234345"
+      "number": "543-473-4766"
     },
     { 
       "id": "4",
       "name": "Mary Poppendieck", 
-      "number": "39-23-6423122"
+      "number": "984-647-3839"
     }
 ]
 
